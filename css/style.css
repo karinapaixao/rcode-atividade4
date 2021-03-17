@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: #FAF3E0;
+  
+}
+
+
+#titulodaloja {
+    display: flex;
+    margin: 0%;
+    background-color:#b68973;
+    color: #ff005c;
+
+    justify-content:center;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #eabf9f;    
+    padding:0 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a h1{
+    font-weight: 600;
+}
+
+
+
+#imagemlogo {
+    display: flex;
+    width:1200px;
+    height:500px;
+    border-radius: 0%;
+    margin: auto;
+    
+}
+
+.roupasavenda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #eabf9f ;
+    background-color: #eabf9f;
+    margin: 15px 80px;
+    padding: 10px;
+    width: 220px;
+
+}
+
+
+.produto:hover {
+    border: 3px groove #b68973;
+    border-radius: 2%;
+}
+
+.produto img {
+    border: 4px dotted #B68973;
+    padding: 5px;
+    height: 200px;
+    width: 200px;    
+}
+
+.produto button {
+    background-color: #B68973;
+    color: white;
+    font-weight: 500;
+    height: 30px;
+    width: 100px;
+}
+
+.produto button:hover {
+    background-color: #e5b095 ;
+    border: 2px groove #262935;
+
+}
+.produto input {
+    width: 60px;
+    height: 20px;
+    margin: 3px 0 10px 0;
+    border: 2px solid #b68973;
+    border-radius: 10%;
+    background-color: #FAF3E0;
+}
+
+.produto input:hover {
+
+background-color: #ffeae0;
+}
+
+.produto input:focus{
+    outline: none;
+}
+
+
+
+.produto h1 {
+    border: 1px none #B68973;
+    padding: 2px;
+    height: auto;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    font-size: 1rem;
+    margin: 5px 0px ;
+    font-weight: normal;
+    
+}
+
+.produto h2 {
+    margin: 5px 0px;
+   font-size: 20px;
+
+}
+
+footer {
+    background-color:#1e212d;
+    color: white;
+    padding: 20px;
+}    
+
+footer a {
+    color: white;
+}    
+
+
